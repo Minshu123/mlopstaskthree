@@ -1,7 +1,7 @@
 import smtplib
 sender_email="minshudwarika@gmail.com"
 rec_email="minshunitrkl@gmail.com"
-password="resonance"
+password="password"
 message="hey ,Accuracy greater than 80 percent has been acheived "
 server=smtplib.SMTP("smtp.gmail.com",587) 
 server.starttls()
