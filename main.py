@@ -64,7 +64,7 @@ def model_train(epoch,n):
     score = model.evaluate(x_test, y_test, verbose=0)
     a=score[1]*100
     model.save("model.h5")
-    os.system("mv /model.h5 /project")
+    os.system("mv /model.h5 /root/mltask")
     return a
 
 no_epoch=1
